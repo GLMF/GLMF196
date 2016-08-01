@@ -1,0 +1,33 @@
+host: localhost:8080
+
+categorie:
+    type: list
+    title: Catégorie
+    items:
+        - espaces verts
+        - voirie
+        - bâtiments
+    mails:
+        - mail@adresse.com
+        - mail@adresse.com, mail_2@adresse.com
+        - mail_2@adresse.com
+
+status:
+    type: list
+    title: Priorité
+    items:
+        - critique
+        - urgente
+        - faible
+        - moyenne
+        - résolu
+
+description:
+    type: text
+    title: Description
+
+image:
+    type: image
+    title: Photo(s)
+    optionnal: true
+    multiple: true
